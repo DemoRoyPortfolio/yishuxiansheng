@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="renderer" content="webkit">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="format-detection" content="telephone=no" />
+	<title>Mr Art</title>
+	<link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/wap.css">
+</head>
+<body>
+	<!-- PC端开始 -->
+	<div class="wamp pc pc-index">
+		<!-- 头部 -->
+		<header>
+			<!-- 导航条 -->
+			<nav>
+				<ul>
+					<li class="active"><a href="index.html">首页</a></li>
+					<li><a href="doc/artwork.html">艺术品</a></li>
+					<li><a href="doc/artist.html">艺术家</a></li>
+					<li><a href="doc/activities.html">艺术活动</a></li>
+					<li><a href="doc/information.html">艺术资讯</a></li>
+					<li><a href="doc/gallery.html">画廊</a></li>
+					<li><a href="doc/about.html">关于我们</a></li>
+					<li><a href="doc/user.html">我的</a></li>
+				</ul>
+			</nav>
+			<!-- 搜索区 -->
+			<span class="search"></span>
+		</header>
+		<!-- 主要内容 -->
+		<section class="pc-section-index">
+			<article>
+				<!-- 左侧信息 -->
+				<div class="left x4 table">
+					<div>
+						<div class="logo">
+							<img src="img/logo.jpg" alt="专业的艺术顾问">
+							<p>专业的艺术顾问</p>
+						</div>
+						<button type="button">更多艺术 开始注册</button>
+						<div class="qrcode">
+							<div class="qrcode-item qrcode-item-1">
+								<div class="qrcode-img"></div>
+								<div class="qrcode-text">
+									<p>微信公众号</p>
+								</div>
+							</div>
+						</div>
+						<div class="copyright">
+							<p>北京市朝阳区工体北路四号院1949会所院内</p>
+							<p>©君之艺舍（北京）文化传播有限公司</p>
+							<p>版权所有</p>
+						</div>
+					</div>
+				</div>
+				<!-- 右侧轮播 -->
+				<div class="right table">
+					<div>
+						<div class="slide">
+							<ul class="bd"> 
+								<li class="item">
+									<div>
+										<h2>Title1Title1Title1Title1Title1Title1Title1</h2>
+										<h3>Subtitle1Subtitle1Subtitle1</h3>
+										<p>DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription</p>
+										<div class="date">2017.04.28-2017.6.20</div>
+									</div>
+								</li>
+								<li class="item">
+									<div>
+										<h2>Title2Title2Title2Title2Title2Title2Title2</h2>
+										<h3>Subtitle2Subtitle2Subtitle2</h3>
+										<p>DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription</p>
+										<div class="date">2017.05.22-2017.6.21</div>
+									</div>
+								</li>
+								<li class="item">
+									<div>
+										<h2>Title3Title3Title3Title3Title3Title3Title3</h2>
+										<h3>Subtitle3Subtitle3Subtitle3</h3>
+										<p>DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription</p>
+										<div class="date">2017.05.30-2017.6.20</div>
+									</div>
+								</li>
+							</ul>
+						</div>		
+					</div>
+				</div>
+			</article>
+		</section>
+		<!-- 注册页面 -->
+		<div class="popup popup-login">
+			<!-- 背景遮罩 -->
+			<div class="popup-bg"></div>
+			<!-- 右侧标语 -->
+			<div class="table x5">
+				<div class="logo">
+					<img src="img/logo.png" alt="Mr Art">
+					<p>Enjoy Your Artistic Life</p>
+					<p>开始你的艺术生活</p>
+				</div>
+			</div>
+			<!-- 注册表单 -->
+			<div class="table x5">
+				<div class="login">
+					<h2><span>Mr</span> ART</h2>
+					<form class="loginByPhone" action="">
+						<div class="input-box">
+							<label for="tel">手机号：</label>
+							<input id="tel" type="text">
+						</div>
+						<div class="line"></div>
+						<div class="input-box">
+							<label for="password">密码：</label>
+							<input id="password" type="password">
+						</div>
+						<div class="line"></div>
+			 			<button class="submit" type="submit">OK</button>
+					</form>
+					<div class="loginway">
+						<div class="orline">
+							<div class="line"></div>
+							<span class="or">或</span>
+							<div class="line line-right"></div>
+						</div>
+						<div class="login-third">
+							<a href="#">
+								<i class="fa fa-weixin"></i>
+							</a>
+							<a href="#">
+								<i class="fa fa-facebook"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 关闭按钮 -->
+			<div class="btn-close"></div>
+		</div>
+		<!-- 搜索界面 -->
+		<div class="popup popup-search">
+			<div class="table">
+				<div>
+					<form action="">
+						<input type="text">
+						<a class="result" type="submit"></a>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- 搜索结果 -->
+		<div class="popup popup-result">
+	    	<div class="left x2">
+	    		<h1 class="name"></h1>
+				<ul>
+					<li class="active" data-result="1">
+						<div>
+							<div>艺术品</div>
+							<div class="count">34</div>
+						</div>
+					</li>
+					<li data-result="2">
+						<div>
+							<div>艺术家</div>
+							<div class="count">3</div>	
+						</div>
+					</li>
+					<li data-result="3">
+						<div>
+							<div>艺术活动</div>
+							<div class="count">8</div>
+						</div>	
+					</li>
+					<li data-result="4">
+						<div>
+							<div>艺术资讯</div>
+							<div class="count">14</div>
+						</div>
+					</li>
+				</ul>
+	    	</div>
+	    	<div class="right x8">
+	    		<!-- 艺术品 -->
+	    		<div class="result result-1">
+					<ul>
+						<li>
+							<div class="img">
+								<img src="img/艺术先生pc界面设计-158.jpg" alt="">
+							</div>
+							<p class="name">
+		                    	<a href="#">作者</a>
+		                    </p>
+		                    <p class="title">
+		                    	<a href="#">作品名称</a>
+		                    </p>
+		                    <p class="price">¥ XXXX</p>
+						</li>
+						<li>
+							<div class="img">
+								<img src="img/艺术先生pc界面设计-157.jpg" alt="">
+							</div>
+							<p class="name">
+		                    	<a href="#">作者</a>
+		                    </p>
+		                    <p class="title">
+		                    	<a href="#">作品名称</a>
+		                    </p>
+		                    <p class="price">¥ XXXX</p>
+						</li>
+						<li>
+							<div class="img">
+								<img src="img/艺术先生pc界面设计-158.jpg" alt="">
+							</div>
+							<p class="name">
+		                    	<a href="#">作者</a>
+		                    </p>
+		                    <p class="title">
+		                    	<a href="#">作品名称</a>
+		                    </p>
+		                    <p class="price">¥ XXXX</p>
+						</li>
+						<li>
+							<div class="img">
+								<img src="img/艺术先生pc界面设计-157.jpg" alt="">
+							</div>
+							<p class="name">
+		                    	<a href="#">作者</a>
+		                    </p>
+		                    <p class="title">
+		                    	<a href="#">作品名称</a>
+		                    </p>
+		                    <p class="price">¥ XXXX</p>
+						</li>
+						<li>
+							<div class="img">
+								<img src="img/艺术先生pc界面设计-158.jpg" alt="">
+							</div>
+							<p class="name">
+		                    	<a href="#">作者</a>
+		                    </p>
+		                    <p class="title">
+		                    	<a href="#">作品名称</a>
+		                    </p>
+		                    <p class="price">¥ XXXX</p>
+						</li>
+						<li>
+							<div class="img">
+								<img src="img/艺术先生pc界面设计-157.jpg" alt="">
+							</div>
+							<p class="name">
+		                    	<a href="#">作者</a>
+		                    </p>
+		                    <p class="title">
+		                    	<a href="#">作品名称</a>
+		                    </p>
+		                    <p class="price">¥ XXXX</p>
+						</li>
+						<li>
+							<div class="img">
+								<img src="img/艺术先生pc界面设计-158.jpg" alt="">
+							</div>
+							<p class="name">
+		                    	<a href="#">作者</a>
+		                    </p>
+		                    <p class="title">
+		                    	<a href="#">作品名称</a>
+		                    </p>
+		                    <p class="price">¥ XXXX</p>
+						</li>
+						<li>
+							<div class="img">
+								<img src="img/艺术先生pc界面设计-157.jpg" alt="">
+							</div>
+							<p class="name">
+		                    	<a href="#">作者</a>
+		                    </p>
+		                    <p class="title">
+		                    	<a href="#">作品名称</a>
+		                    </p>
+		                    <p class="price">¥ XXXX</p>
+						</li>
+						<li>
+							<div class="img">
+								<img src="img/艺术先生pc界面设计-158.jpg" alt="">
+							</div>
+							<p class="name">
+		                    	<a href="#">作者</a>
+		                    </p>
+		                    <p class="title">
+		                    	<a href="#">作品名称</a>
+		                    </p>
+		                    <p class="price">¥ XXXX</p>
+						</li>
+						<li>
+							<div class="img">
+								<img src="img/艺术先生pc界面设计-157.jpg" alt="">
+							</div>
+							<p class="name">
+		                    	<a href="#">作者</a>
+		                    </p>
+		                    <p class="title">
+		                    	<a href="#">作品名称</a>
+		                    </p>
+		                    <p class="price">¥ XXXX</p>
+						</li>
+					</ul>
+				</div>
+				<!-- 艺术家 -->
+				<div class="result result-2">
+					<ul class="art">
+						<li class="item"> 
+							<img src="img/guozilong.jpg" alt="">
+						</li>
+						<li class="item">
+							<img src="img/guozilong001.jpg" alt="">
+						</li>
+						<li class="item item-text">
+							<h2>郭子龙</h2>
+							<p>1977年4月出生 2002年毕业于清华大学美术学院金属艺术设计专业。 2002-2005年任教于北京工艺美术学校 2005至今为北京工业大学艺术设计学院讲师1977年4月出生 2002年毕业于清华大学美术学院金属艺术设计专业。 2002-2005年任教于北京工艺美术学校 2005至今为北京工业大学艺术设计学院讲师</p>
+							<span class="fav">
+								<img src="img/fav01.png" alt="">
+							</span>
+						</li>
+					</ul>
+					<ul class="art">
+						<li class="item"> 
+							<img src="img/caizhisong.jpg" alt="">
+						</li>
+						<li class="item">
+							<img src="img/guozilong001.jpg" alt="">
+						</li>
+						<li class="item item-text">
+							<h2>郭子龙</h2>
+							<p>1977年4月出生 2002年毕业于清华大学美术学院金属艺术设计专业。 2002-2005年任教于北京工艺美术学校 2005至今为北京工业大学艺术设计学院讲师1977年4月出生 2002年毕业于清华大学美术学院金属艺术设计专业。 2002-2005年任教于北京工艺美术学校 2005至今为北京工业大学艺术设计学院讲师</p>
+							<span class="fav">
+								<img src="img/fav01.png" alt="">
+							</span>
+						</li>
+					</ul>
+					<ul class="art">
+						<li class="item"> 
+							<img src="img/caizhisong.jpg" alt="">
+						</li>
+						<li class="item">
+							<img src="img/guozilong001.jpg" alt="">
+						</li>
+						<li class="item item-text">
+							<h2>郭子龙</h2>
+							<p>1977年4月出生 2002年毕业于清华大学美术学院金属艺术设计专业。 2002-2005年任教于北京工艺美术学校 2005至今为北京工业大学艺术设计学院讲师1977年4月出生 2002年毕业于清华大学美术学院金属艺术设计专业。 2002-2005年任教于北京工艺美术学校 2005至今为北京工业大学艺术设计学院讲师</p>
+							<span class="fav">
+								<img src="img/fav01.png" alt="">
+							</span>
+						</li>
+					</ul>
+					<ul class="art">
+						<li class="item"> 
+							<img src="img/caizhisong.jpg" alt="">
+						</li>
+						<li class="item">
+							<img src="img/guozilong001.jpg" alt="">
+						</li>
+						<li class="item item-text">
+							<h2>郭子龙</h2>
+							<p>1977年4月出生 2002年毕业于清华大学美术学院金属艺术设计专业。 2002-2005年任教于北京工艺美术学校 2005至今为北京工业大学艺术设计学院讲师1977年4月出生 2002年毕业于清华大学美术学院金属艺术设计专业。 2002-2005年任教于北京工艺美术学校 2005至今为北京工业大学艺术设计学院讲师</p>
+							<span class="fav">
+								<img src="img/fav01.png" alt="">
+							</span>
+						</li>
+					</ul>
+					<ul class="art">
+						<li class="item"> 
+							<img src="img/caizhisong.jpg" alt="">
+						</li>
+						<li class="item">
+							<img src="img/guozilong001.jpg" alt="">
+						</li>
+						<li class="item item-text">
+							<h2>郭子龙</h2>
+							<p>1977年4月出生 2002年毕业于清华大学美术学院金属艺术设计专业。 2002-2005年任教于北京工艺美术学校 2005至今为北京工业大学艺术设计学院讲师1977年4月出生 2002年毕业于清华大学美术学院金属艺术设计专业。 2002-2005年任教于北京工艺美术学校 2005至今为北京工业大学艺术设计学院讲师</p>
+							<span class="fav">
+								<img src="img/fav01.png" alt="">
+							</span>
+						</li>
+					</ul>
+				</div>
+				<!-- 艺术活动 -->
+				<div class="result result-3">
+					<ul>
+						<li>
+							<img src="img/activities01.jpg" alt="">
+							<h2>这是活动主题</h2>
+						</li>
+						<li>
+							<img src="img/activities01.jpg" alt="">
+							<h2>这是活动主题</h2>
+						</li>
+						<li>
+							<img src="img/activities01.jpg" alt="">
+							<h2>这是活动主题</h2>
+						</li>
+					</ul>
+				</div>
+				<!-- 艺术资讯 -->
+				<div class="result result-4">
+					艺术资讯
+				</div>
+	    	</div>
+		</div>
+	</div>
+	<!-- PC端结束 -->
+	<!-- 移动端开始 -->
+	<div class="wamp wap wap-index">
+		<!-- 头部 -->
+		<header>
+			<nav>
+				<li><a href="doc/artwork.html">艺术品</a></li>
+				<li><a href="doc/artist.html">艺术家</a></li>
+				<li><a href="doc/user.html">我的</a></li>
+				<div class="btn">
+					<span class="btn-bar"></span>
+					<span class="btn-bar"></span>
+					<span class="btn-bar"></span>
+				</div>
+			</nav>
+			<div class="inner inner-1">
+				<div class="inner inner-2">
+					<div class="close-btn">
+						<img src="img/close-white.svg" alt="X">
+					</div>
+					<nav>
+						<div class="title">首页</div>
+					</nav>
+					<ul class="gnav">
+						<li><a href="doc/artwork.html">艺术品</a></li>
+						<li><a href="doc/artist.html">艺术家</a></li>
+						<li><a href="doc/activities.html">艺术活动</a></li>
+						<li><a href="doc/information.html">艺术资讯</a></li>
+						<li><a href="doc/gallery.html">画廊</a></li>
+						<li><a href="doc/about.html">关于我们</a></li>
+						<li><a href="doc/user.html">我的</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<!-- 主要内容 -->
+		<section class="wap-section-index">
+			<div class="top" id="top">
+				<div class="table">
+					<div class="logo">
+						<img src="img/logo.jpg" alt="艺术先生">
+					</div>
+				</div>
+				<button type="button">注册 / 登录</button>
+			</div>
+			<!-- 首页作品欣赏 -->
+			<div class="bottom">
+				<ul> 
+					<li class="item">
+						<div class="table">
+							<div>
+								<h2>展览名称1</h2>
+								<h3>副标题</h3>
+								<p class="desc">相关描述</p>
+								<p class="date">201.5.30-2017.6.19</p>
+							</div>
+						</div>
+					</li>
+					<li class="item">
+						<div class="table">
+							<div>
+								<h2>展览名称2</h2>
+								<h3>副标题</h3>
+								<p class="desc">相关描述</p>
+								<p class="date">201.5.30-2017.6.19</p>
+							</div>
+						</div>
+					</li>
+					<li class="item">
+						<div class="table">
+							<div>
+								<h2>展览名称3</h2>
+								<h3>副标题</h3>
+								<p class="desc">相关描述</p>
+								<p class="date">201.5.30-2017.6.19</p>
+							</div>
+						</div>
+					</li>
+					<li class="item">
+						<div class="table">
+							<div>
+								<h2>展览名称4+</h2>
+								<h3>副标题</h3>
+								<p class="desc">相关描述</p>
+								<p class="date">201.5.30-2017.6.19</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- 底部标签 -->
+			<div class="foot-tags">
+				<ul>
+					<li>· <a href="index.html">首页</a></li>
+					<li>· <a href="doc/artwork.html">艺术品</a></li>
+					<li>· <a href="doc/artist.html">艺术家</a></li>
+					<li>· <a href="doc/activities.html">艺术活动</a></li>
+					<li>· <a href="doc/information.html">艺术资讯</a></li>
+					<li>· <a href="doc/gallery.html">画廊</a></li>
+					<li>· <a href="doc/about.html">关于我们</a></li>
+					<li>· <a href="doc/user.html">我的</a></li>
+					<li>· <a href="#top">回到顶部</a></li>
+				</ul>
+			</div>
+		</section>
+		<!-- 登录注册 -->
+		<div class="Mpage-login">
+			<div class="page-login">
+				<section class="login">
+					<!-- 登录页 -->
+					<div class="account">
+						<div class="input-box">
+							<input type="text" placeholder="请输入手机号">
+						</div>
+						<span class="tip"></span>
+					</div>
+					<div class="loginpw">
+						<div class="input-box">
+							<input type="password" placeholder="请输入密码">
+						</div>
+					</div>
+					<div class="forgetpw-btn">
+						<a href="javascript:void(0);">忘记密码？</a>
+					</div>
+					<button class="blackbutton">登录</button>
+					<div class="loginway">
+						<div class="orline">
+							<div class="line"></div>
+							<span class="or">或</span>
+						</div>
+						<div class="login-third">
+							<a href="#">
+								<i class="fa fa-weixin"></i>
+							</a>
+							<a href="#">
+								<i class="fa fa-facebook"></i>
+							</a>
+						</div>
+					</div>
+					<div class="register-btn">
+							还没有账号？
+							<span>请注册</span>
+						</div>
+				</section>
+				<section class="forgetpw">
+					<!-- 忘记密码页 -->
+					<div class="acount">
+						<div class="input-box">
+							<input type="text" placeholder="请输入手机号">
+						</div>
+						<span class="tip"></span>
+					</div>
+					<div class="code-login">
+						<div class="code">
+							<img src="img/GetLoginCaptcha.jpg" alt="验证码">
+						</div>
+						<div class="input-box">
+							<input type="text" placeholder="请输入验证码">
+						</div>
+						<span class="tip"></span>
+					</div>
+					<div class="sms-code">
+						<div class="sms-code-btn">
+							<a href="#">获取短信验证码</a>
+							<div class="time"><span>59</span>秒后重新获取</div>
+						</div>
+						<div class="input-box">
+							<input type="text" placeholder="请输入短信验证码">
+						</div>
+						<span class="tip"></span>
+					</div>
+					<button class="blackbutton next-btn">下一步</button>
+				</section>
+				<section class="setnewpw">
+					<!-- 重置密码页 -->
+					<div class="input-box">
+						<input type="text" placeholder="请设置新密码">
+					</div>
+					<div class="input-box">
+						<input type="text" placeholder="请再次输入密码">
+						<span class="tip"></span>
+					</div>
+					<button class="blackbutton setdown">完成</button>
+					<div class="back-login">
+						<a href="javascript:void(0);">返回登录</a>
+					</div>
+				</section>
+				<section class="register">
+					<!-- 注册页一 -->
+					<div class="acount">
+						<div class="input-box">
+							<input type="text" placeholder="请输入手机号">
+						</div>
+						<span class="tip"></span>
+					</div>
+					<div class="code-login">
+						<div class="code">
+							<img src="img/GetLoginCaptcha.jpg" alt="验证码">
+						</div>
+						<div class="input-box">
+							<input type="text" placeholder="请输入验证码">
+						</div>
+						<span class="tip"></span>
+					</div>
+					<button class="blackbutton">获取短信验证码</button>
+					<div class="login-btn">
+						已有账号？
+						<span>请登录</span>
+					</div>
+					<div class="loginway">
+						<div class="orline">
+							<div class="line"></div>
+							<span class="or">或</span>
+						</div>
+						<div class="login-third">
+							<a href="#">
+								<i class="fa fa-weixin"></i>
+							</a>
+							<a href="#">
+								<i class="fa fa-facebook"></i>
+							</a>
+						</div>
+					</div>
+				</section>
+				<section class="register-secound">
+					<!-- 注册页二 -->
+					<div class="sms-code-btn on">
+						<a href="#">获取短信验证码</a>
+						<div class="time"><span>59</span>秒后重新获取</div>
+					</div>
+					<div class="input-box">
+						<input type="text" placeholder="请输入短信验证码">
+					</div>
+					<div class="input-box">
+						<input type="text" placeholder="请设置登录密码，不少于6位">
+					</div>
+					<button class="blackbutton">完成</button>
+					<div class="agreement">
+						<input type="radio" checked="checked">
+						<span>完成注册，则视为您接受<a href="#">《艺术先生用户协议》</a></span>
+					</div>
+				</section>
+			</div>
+			<div class="close-btn">
+				<img src="img/close.svg" alt="X">
+			</div>
+		</div>
+	</div>
+	<!-- 移动端结束 -->
+	<script src="js/jquery-2.1.1.js"></script>
+	<script src="js/animate.js"></script>
+	<script>
+		$(document).ready(function(){
+			/* PC端 */
+			var i = 0;
+			// 右侧轮播
+			var innerWidth = $(".pc").innerWidth();
+			if (innerWidth > 750) {
+				$(".pc .slide .item").eq(0).css("opacity","1");
+				setInterval(function(){
+					i++;
+					$(".pc .slide .item").css("opacity","0");
+					$(".pc .slide .item").eq(i).css("opacity","1");
+					if (i == 2) {
+						i = -1;
+					};
+				}, 5000);
+			};
+			// 注册页面
+			$(".pc .left button").click(function(){
+				$(".pc .popup-login").addClass("on");
+				var i = 0;
+				setInterval(function(){
+					i++;
+					switch(i){
+						case 1: 
+						$(".pc .popup-login .popup-bg").css("backgroundColor","#ac6856");
+						break;
+						case 2: 
+						$(".pc .popup-login .popup-bg").css("backgroundColor","#8e7b75");
+						break;
+						default:
+						$(".pc .popup-login .popup-bg").css("backgroundColor","#607b9d");
+					};
+					if (i > 3) {
+						i = 0;
+					};
+				},6000);
+			});
+			// 关闭注册页面
+			$(".pc .popup-login .btn-close").hover(function(){
+				$(this).addClass("on");
+			},function(){
+				$(this).removeClass("on");
+			});
+			$(".pc .popup-login .btn-close").click(function(){
+				$(".popup-login").removeClass("on");
+			});
+			// 搜索界面
+			$(".pc header .search").click(function(){
+				$(".pc .popup-search").addClass("on");
+			});
+			// 搜索结果
+			$(".pc .popup-search .result").click(function(){
+				var value = $(".pc .popup-search input").val();
+				$(".pc .popup-search").removeClass("on");
+         		$(".pc .popup-result").addClass("on");
+				$(".pc .popup-result .name").text(value);
+				$(".pc .popup-result .left .count").each(function(index,ele){
+					index += 1;
+					count = $(".pc .popup-result .result-" + index + " li").size();
+					$(this).text(count);
+				});
+         		// 栏目切换
+         		$(".pc .popup-result .left li").click(function(){
+         			$(".pc .popup-result .left li").removeClass("active");
+					$(this).addClass("active");
+					$(".result").hide();
+					$(".result-" + $(this).data("result")).fadeIn();
+         		});
+         	});
+         	/* 移动端 */
+         	$(".wap header .btn").click(function(){
+         		$(".wap header").addClass("active");
+         	});
+         	$(".wap header .close-btn").click(function(){
+         		$(".wap header").removeClass("active");
+         	});
+         	// 注册登录
+  			$(".wap-section-index .top button").click(function(){
+  				$(".Mpage-login").fadeIn();
+  				$(".Mpage-login section").hide();
+  				$(".login").show();
+  			});
+  			$(".Mpage-login .close-btn").click(function(){
+  				$(".Mpage-login").hide();
+  				$(".Mpage-login section").hide();
+  			});
+  			// 忘记密码
+  			$(".forgetpw-btn a").click(function(){
+  				$(".Mpage-login section").hide();
+  				$(".forgetpw").show();
+  			});
+  			// 设置新密码
+  			$(".forgetpw .next-btn").click(function(){
+  				$(".Mpage-login section").hide();
+  				$(".setnewpw").show();
+  			});
+  			// 返回登录页
+  			$(".back-login a").click(function(){
+  				$(".Mpage-login section").hide();
+  				$(".login").show();
+  			});
+  			// 注册页面
+  			$(".register-btn").click(function(){
+				$(".Mpage-login section").hide();
+  				$(".register").show();
+  			});
+  			// 
+  			$(".login-btn").click(function(){
+				$(".Mpage-login section").hide();
+  				$(".login").show();
+  			});
+  			$(".register button").click(function(){
+				$(".Mpage-login section").hide();
+  				$(".register-secound").show();
+  			});
+		});
+	</script>
+</body>
+</html>

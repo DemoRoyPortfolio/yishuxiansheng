@@ -1,0 +1,1524 @@
+/* -----------------------------------------------------------------------
+
+移动端公共设置
+
+----------------------------------------------------------------------- */
+
+.wap header nav {
+	height: 2.3rem;
+	line-height: 2.3rem;
+	text-align: center;
+}
+
+.wap header nav li {
+	width: 70px;
+	margin: 0;
+	font-size: .7rem;
+	text-align: center;
+}
+
+.wap header nav .btn {
+	position: absolute;
+	top: 0;
+	left: 10px;
+	width: 46px;
+	padding: 13px 8px;
+}
+
+.wap header nav .btn-bar {
+	position: relative;
+	display: block;
+	width: 30px;
+	height: 1px;
+	background-color: #fff;
+}
+
+.wap header nav .btn-bar:nth-of-type(2),
+.wap header nav .btn-bar:nth-of-type(3){
+	margin-top: 9px;
+}
+
+.wap header nav .title {
+	font-size: .8rem;
+	color: #fff;
+	text-align: center;
+}
+
+.wap header .inner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	color: #fff;
+	background-color: #333;
+	transition: -webkit-transform 1s cubic-bezier(0.47, 0.01, 0.1, 1.01) 0.65s;
+  	transition: transform 1s cubic-bezier(0.47, 0.01, 0.1, 1.01) 0.65s;
+  	transition: transform 1s cubic-bezier(0.47, 0.01, 0.1, 1.01) 0.65s, -webkit-transform 1s cubic-bezier(0.47, 0.01, 0.1, 1.01) 0.65s;
+  	will-change: transform;
+	overflow: hidden;
+}
+
+.wap header .inner-1 {
+	-webkit-transform: translateY(-100%);
+			transform: translateY(-100%);
+}
+
+.wap header .inner .close-btn {
+	position: absolute;
+	top: 8px;
+	left: 18px;
+	width: 30px;
+	height: 30px;
+}
+
+.wap header .inner nav {
+	background-color: #231815;
+}
+
+.wap header .inner .gnav {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+			transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+}
+
+.wap header .inner .gnav li {
+	padding: 20px 0;
+}
+
+.wap header.active .inner {
+	transition: -webkit-transform 1s cubic-bezier(0.47, 0.01, 0.1, 1.01) 0s;
+  	transition: transform 1s cubic-bezier(0.47, 0.01, 0.1, 1.01) 0s;
+    transition: transform 1s cubic-bezier(0.47, 0.01, 0.1, 1.01) 0s, -webkit-transform 1s cubic-bezier(0.47, 0.01, 0.1, 1.01) 0s;
+}
+
+.wap header.active .inner-1 {
+	-webkit-transform: translateY(0);
+			transform: translateY(0);
+}
+
+/* -----------------------------------------------------------------------
+
+首页
+
+----------------------------------------------------------------------- */
+
+.wap-index header nav {
+	padding-left: 46px;
+}
+
+.wap header .inner nav {
+	padding-left: 0;
+}
+
+.wap-section-index {
+	overflow-y: auto;
+}
+
+.wap-section-index::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
+.wap-section-index .top {
+	position: relative;
+	height: 50%;
+	font-size: .7rem;
+	text-align: center;
+}
+
+.wap-section-index .top .logo img {
+	width: 120px;
+}
+
+.wap-section-index .top button {
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	width: 120px;
+	height: 40px;
+	margin-left: -60px;
+	line-height: 30px;
+	border: none;
+	border-radius: 6px;
+	font-size: .7rem;
+	color: #666;
+	background-color: #eaeaea;
+}
+
+.wap-section-index .bottom {
+	height: 200%; /* 此处根据作推荐作品的熟练变化 */
+	width: 100%;
+	letter-spacing: 1px; 
+	color: #fffbf4;
+	text-align: center;
+}
+
+.wap-section-index .bottom ul {
+	height: 100%;
+	margin-top: 16%;
+}
+
+.wap-section-index .bottom .item {
+	height: 25%; /* 此处根据作推荐作品的熟练变化 */
+}
+
+.wap-section-index .bottom .item:nth-of-type(1) {
+	background: url(../img/index-slide-1.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.wap-section-index .bottom .item:nth-of-type(2) {
+	background: url(../img/index-slide-2.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.wap-section-index .bottom .item:nth-of-type(3) {
+	background: url(../img/index-slide-3.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.wap-section-index .bottom .item:nth-of-type(4) {
+	background: url(../img/艺术先生pc界面设计-156.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.wap-section-index .bottom .item h2 {
+	padding-bottom: .5rem;
+	font-size: .7rem;
+}
+
+.wap-section-index .bottom .item h3 {
+	padding-bottom: 2.5rem;
+	font-size: .6rem;
+}
+
+.wap-section-index .bottom .item p.desc {
+	padding-bottom: .5rem;
+	font-size: .6rem;
+}
+
+.wap-section-index .bottom .item p.date {
+	font-size: .6rem;
+}
+
+.wap-section-index .foot-tags {
+	color: #666;
+	background-color: #231815;
+}
+
+.wap-section-index .foot-tags ul {
+	padding: 20px 20px 20px ; 
+	font-size: 0;
+}
+
+.wap-section-index .foot-tags ul li {
+	display: inline-block;
+	width: 33.33%;
+	height: 46px;
+	line-height: 46px;
+	text-align: left;
+	font-size: 16px;
+}
+
+.wap-section-index .foot-tags ul li a {
+	font-size: 10px;
+	color: #fff;
+}
+
+/* 注册登录 */
+
+.Mpage-login {
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	z-index: 9999;
+}
+
+.Mpage-login button {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-family: 'PingFang SC', 'Microsoft YaHei', 'Helvetica', 'STHeitiSC-Light', 'Arial', 'sans-serif' !important;
+	font-size: 16px;
+	color: #000;
+	background-color: #fff;
+	border: 1px solid #000;
+}
+
+.Mpage-login .blackbutton {
+	background-color: #000;
+	color: #fff;
+}
+
+.Mpage-login input {
+	display: inline-block;
+	width: 100%;
+	height: 38px;
+	line-height: 38px;
+	border: none;
+	border-bottom: 2px solid #eee;
+	font-size: 14px;
+	color: #000;
+}
+
+.Mpage_login input::-webkit-input-placeholder {
+    color: #333;
+}
+
+.Mpage_login input:-moz-placeholder {
+    color: #333; 
+}
+
+.Mpage_login input::-moz-placeholder {
+    color: #333;
+}
+
+.Mpage_login input:-ms-input-placeholder {
+    color: #333;
+}
+
+.Mpage-login .tip {
+	display: none;
+	margin: 10px 0;
+	font-size: 12px;
+	color: #ee403c;
+}
+
+.Mpage-login .page-login {
+	position: relative;
+	top: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	max-width: 375px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.Mpage-login .page-login section {
+	display: none;
+	padding: 25% 20px 0;
+}
+
+.Mpage-login .page-login .account .input-box {
+	margin-bottom: 10px;
+}
+
+.Mpage-login .page-login .code-login {
+	margin-top: 30px;
+}
+
+.Mpage-login .page-login .code-login .code {
+	width: 90px;
+	height: 38px;
+	float: right;
+}
+
+.Mpage-login .page-login .code-login .input-box {
+	padding-right: 110px;
+}
+
+.Mpage-login .page-login .loginway {
+	margin-top: 30px;
+}
+
+.Mpage-login .page-login .loginway .orline {
+	position: relative;
+	height: 41px;
+	text-align: center;
+}
+
+.Mpage-login .page-login .loginway .line {
+	position: absolute;
+	top: 20px;
+	left: 0;
+	width: 100%;
+	z-index: 0;
+}
+
+.Mpage-login .page-login .loginway .or {
+	position: absolute;
+	left: 0;
+	right: 0;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin: 0 auto;
+	line-height: 40px;
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+	background-color: #fff;
+}
+
+.Mpage-login .page-login .loginway .login-third {
+	margin-top: 15px;
+	text-align: center;
+}
+
+.Mpage-login .page-login .loginway a {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	margin: 0 15px;
+	line-height: 35px;
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 50%;
+}
+
+.Mpage-login .page-login .sms-code-btn {
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	color: #000;
+	text-align: center;
+}
+
+.Mpage-login .page-login .sms-code-btn a {
+	display: block;
+	background-color: #fff;
+	border: 1px solid #000;
+}
+
+.Mpage-login .page-login .sms-code-btn.on a {
+	display: none;
+	background-color: #fff;
+	border: 1px solid #000;
+}
+
+.Mpage-login .page-login .sms-code-btn .time {
+	display: none;
+} 
+
+.Mpage-login .page-login .sms-code-btn.on .time {
+	display: block;
+}
+
+.Mpage-login .page-login .login .loginpw {
+	margin-top: 30px;
+}
+
+.Mpage-login .page-login .login .forgetpw-btn {
+	margin-top: 12px;
+	font-size: 12px;
+	color: #008cd6;
+	text-align: right;
+}
+
+.Mpage-login .page-login .login button {
+	margin-top: 60px;
+}
+
+.Mpage-login .page-login .login .register-btn {
+	margin-top: 12px;
+	font-size: 12px;
+	color: #333;
+	text-align: center;
+}
+
+.Mpage-login .page-login .login .register-btn span {
+	color: #008cd6;
+}
+
+/* 忘记密码页 */
+
+.Mpage-login .page-login .forgetpw .sms-code {
+	margin-top: 50px;
+}
+
+.Mpage-login .page-login .forgetpw .sms-code .input-box {
+	margin-top: 30px;
+}
+
+.Mpage-login .page-login .forgetpw button {
+	margin-top: 60px;
+}
+
+.Mpage-login .page-login .setnewpw .input-box {
+	margin-bottom: 30px;
+}
+
+.Mpage-login .page-login .setnewpw .setdown {
+	margin-top: 60px;
+}
+
+.Mpage-login .page-login .setnewpw .back-login {
+	margin-top: 12px;
+	font-size: 12px;
+	color: #008cd6;
+	text-align: center;
+}
+
+.Mpage-login .page-login .register button {
+	margin-top: 60px;
+}
+
+.Mpage-login .page-login .register .login-btn {
+	margin-top: 12px;
+	font-size: 12px;
+	color: #333;
+	text-align: center;
+}
+
+.Mpage-login .page-login .register .login-btn span {
+	color: #008cd6;
+}
+
+.Mpage-login .page-login .register-secound .sms-code-btn {
+	margin-bottom: 30px;
+}
+
+.Mpage-login .page-login .register-secound .input-box {
+	margin-bottom: 30px;
+}
+
+.Mpage-login .page-login .register-secound button {
+	margin-top: 30px;
+}
+
+.Mpage-login .page-login .register-secound .agreement {
+	margin-top: 12px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.Mpage-login .page-login .register-secound .agreement a {
+	color: #008cd6;
+}
+
+.Mpage-login .page-login .register-secound .agreement input[type=radio] {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+}
+
+.Mpage-login .close-btn {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 25px;
+	height: 25px;
+}
+
+/* -----------------------------------------------------------------------
+
+艺术品
+
+----------------------------------------------------------------------- */
+
+.wap .tool {
+	position: absolute;
+	top: 74px;
+	left: 0;
+	z-index: 99;
+	width: 100%;
+	text-align: center;
+}
+
+/* 
+ * 返回按钮用于返回上一页操作
+ */
+
+.wap .tool .back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	margin-top: 5px;
+	margin-left: 20px;
+	font-size: .7rem;
+	font-weight: 500;
+}
+
+.wap .tool button {
+	width: 100px;
+	height: 28px;
+	line-height: 28px;
+	border: 1px solid #ddd;
+	font-size: .7rem;
+	background-color: #fff;
+}
+
+.wap .tool .view {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-top: 5px;
+	margin-right: 20px;
+}
+
+.wap .tool .view-single,
+.wap .tool .view-more {
+	display: inline-block;
+	width: 28px;
+	height: 18px;
+}
+
+.wap .tool .view-single {
+	margin-right: 12px;
+	background: url(../img/single03.png) no-repeat center;
+	background-size: cover;
+}
+
+.wap .tool .view-more {
+	background: url(../img/more01.png) no-repeat center;
+	background-size: cover;
+}
+
+.wap .popup-search {
+	padding: 100px 10% 0;
+	font-size: .5rem;
+	overflow-y: auto;
+}
+
+.wap .popup-search.on {
+	display: block;
+	z-index: 98;
+}
+
+.wap .popup-search::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
+.wap .popup-search h2 {
+	margin: 40px 0;
+	font-size: .7rem;
+}
+
+.wap .popup-search .row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.wap .popup-search .row li.active {
+	color: #008cd6;
+}
+
+/*======艺术品======*/
+
+.wap-section-artwork .popup-search .color-row-1 li,
+.wap-section-artwork .popup-search .color-row-2 li {
+	width: 1rem;
+	height: 1rem;
+}
+
+.wap-section-artwork .popup-search .color-row-1 li.active,
+.wap-section-artwork .popup-search .color-row-2 li.active {
+	border: 1px solid #333;
+}
+
+.wap-section-artwork .popup-search .color-row-1 li:nth-of-type(1) {
+	border: 1px solid #666;
+	background-color: #fff;
+}
+
+.wap-section-artwork .popup-search .color-row-1 li:nth-of-type(2) {
+	background-color: #000;
+}
+
+.wap-section-artwork .popup-search .color-row-1 li:nth-of-type(3) {
+	background-color: #a8a9ad;
+}
+
+.wap-section-artwork .popup-search .color-row-1 li:nth-of-type(4) {
+	background-color: #bcbdc0;
+}
+
+.wap-section-artwork .popup-search .color-row-1 li:nth-of-type(5) {
+	background-color: #ee1d23;
+}
+
+.wap-section-artwork .popup-search .color-row-1 li:nth-of-type(6) {
+	background-color: #f8abad;
+}
+
+.wap-section-artwork .popup-search .color-row-2 li:nth-of-type(1) {
+	background-color: #f9a64a;
+}
+
+.wap-section-artwork .popup-search .color-row-2 li:nth-of-type(2) {
+	background-color: #fff685;
+}
+
+.wap-section-artwork .popup-search .color-row-2 li:nth-of-type(3) {
+	background-color: #485e88;
+}
+
+.wap-section-artwork .popup-search .color-row-2 li:nth-of-type(4) {
+	background-color: #0095d9;
+}
+
+.wap-section-artwork .popup-search .color-row-2 li:nth-of-type(5) {
+	background-color: #3b8476;
+}
+
+.wap-section-artwork .popup-search .color-row-2 li:nth-of-type(6) {
+	background-color: #9ad2ae;
+}
+
+.wap-section-artwork .popup-search .type-row li {
+	width: 24px;
+}
+
+.wap-section-artwork .popup-search .theme-row li {
+	width: 24px;
+}
+
+.wap-section-artwork .view-single-page {
+	position: relative;
+	height: 100%;
+	margin: 0 10%;
+	padding-top: 170px;
+	overflow-y: auto;
+}
+
+.wap-section-artwork .view-single-page::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
+.wap-section-artwork .view-single-page .item {
+	margin-bottom: 40px;
+}
+
+.wap-section-artwork .view-single-page .line {
+	margin: 30px 0 50px;
+}
+
+.wap-section-artwork .view-single-page .info {
+	margin-top: 30px;
+	font-size: 10px;
+}
+
+.wap-section-artwork .view-single-page .info .left,
+.wap-section-artwork .view-single-page .info .right {
+	float: left;
+}
+
+.wap-section-artwork .view-single-page .info .name,
+.wap-section-artwork .view-single-page .info .price {
+	font-size: 12px;
+	font-weight: 500;
+	margin-bottom: 1rem;
+}
+
+.wap-section-artwork .view-single-page .info h3 {
+	margin-bottom: 5px; 
+}
+
+.wap-section-artwork .view-single-page .info .qr {
+	width: 37px;
+	height: 37px;
+}
+
+.wap-section-artwork .view-more-page {
+	display: none;
+	width: 100%;
+	height: 100%;
+	padding: 170px 10% 0;
+	overflow-y: auto;
+}
+
+.wap-section-artwork .view-more-page::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
+.wap-section-artwork .view-more-page .column-2 {
+	margin-left: 16.66666667%;
+}
+
+.wap-section-artwork .view-more-page .column li {
+	margin-bottom: 2rem;
+}
+
+/* -----------------------------------------------------------------------
+
+艺术家
+
+----------------------------------------------------------------------- */
+
+/* 搜索页面 */
+
+.wap-section-artist .popup-search .name-row li {
+	width: 13px;
+	text-align: center;
+}
+
+.wap-section-artist .popup-search .college-row li {
+	width: 72px;
+}
+
+.wap-section-artist .popup-search .recommend-row li {
+	width: 60px;
+}
+
+.wap-section-artist .artist-info {
+	height: 100%;
+	padding: 150px 20px 0;
+	overflow-y: auto;
+}
+
+.wap-section-artist .artist-info::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
+.wap-section-artist .artist-box {
+	margin-bottom: 40px;
+	background-color: #eaeaea;
+}
+
+.wap-section-artist .artist-box .box {
+	position: relative;
+	width: 100%;
+	padding-bottom: 50%;
+	overflow: hidden;
+}
+
+.wap-section-artist .artist-box .box .item {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+}
+
+.wap-section-artist .artist-box .box-text {
+	position: relative;
+	margin-top: 30px;
+}
+
+.wap-section-artist .artist-box .box .item-text {
+	width: 100%;
+	padding: 0 20px;
+}
+
+.wap-section-artist .artist-box .box .item-text h2 {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.wap-section-artist .artist-box .box .item-text p {
+	margin-top: 20px;
+	font-size: 12px;
+	line-height: 2;
+}
+
+.wap-section-artist .fav {
+	position: absolute;
+	top: 0;
+	right: 20px;
+	width: 25px;
+	height: 25px;
+	margin-top: -7px;
+	font-size: 25px;
+	color: #c0c0c2;
+}
+
+.wap-section-artist .fav.on {
+	color: #b5513e;
+}
+
+.wap-section-artist .artist-box-1 .box .item-img:nth-of-type(1) {
+	background: url(../img/guozilong.jpg) 0 0 no-repeat;
+	background-size: cover;
+}
+
+.wap-section-artist .artist-box-1 .box .item-img:nth-of-type(2) {
+	left: 50%;
+	background: url(../img/guozilong001.jpg) 0 0 no-repeat;
+	background-size: cover;
+}
+
+.wap-section-artist .artist-box-2 .box .item-img:nth-of-type(1) {
+	background: url(../img/chenxiaoyi.jpg) 0 0 no-repeat;
+	background-size: cover;
+}
+
+.wap-section-artist .artist-box-2 .box .item-img:nth-of-type(2) {
+	left: 50%;
+	background: url(../img/chenxiaoyi001.jpg) 0 0 no-repeat;
+	background-size: cover;
+}
+
+.wap-section-artist .artist-box-3 .box .item-img:nth-of-type(1) {
+	background: url(../img/guozilong.jpg) 0 0 no-repeat;
+	background-size: cover;
+}
+
+.wap-section-artist .artist-box-3 .box .item-img:nth-of-type(2) {
+	left: 50%;
+	background: url(../img/guozilong001.jpg) 0 0 no-repeat;
+	background-size: cover;
+}
+
+.wap-section-artist .artist-box-4 .box .item-img:nth-of-type(1) {
+	background: url(../img/chenxiaoyi.jpg) 0 0 no-repeat;
+	background-size: cover;
+}
+
+.wap-section-artist .artist-box-4 .box .item-img:nth-of-type(2) {
+	left: 50%;
+	background: url(../img/chenxiaoyi001.jpg) 0 0 no-repeat;
+	background-size: cover;
+}
+
+.wap-section-artist .artist-detail {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 60;
+	display: none;
+	width: 100%;
+	height: 100%;
+	padding: 150px 20px 20px;
+	background-color: #fff;
+	overflow-y: auto;
+}
+
+.wap-section-artist .artist-detail::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
+.wap-section-artist .artist-detail.on {
+	display: block;
+}
+
+.wap-section-artist .artist-detail-text {
+	position: relative;
+	padding: 0 10%;
+}
+
+.wap-section-artist .artist-detail-text h2 {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.wap-section-artist .artist-detail-text p {
+	margin-top: 30px;
+	font-size: 12px;
+	line-height: 2;
+}
+
+.wap-section-artist .artist-detail-img {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.wap-section-artist .artist-detail-img .column {
+	display: inline-block;
+	width: 35%;
+	margin: 0 5%;
+	vertical-align: top;
+}
+
+.wap-section-artist .artist-detail-img .column li {
+	margin-bottom: 40px;
+}
+
+.wap-section-artist .artwork-info {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 99;
+	display: none;
+	padding: 79px 20px 0;
+	font-size: 10px;
+	background-color: #fff;
+	overflow-y: auto;
+}
+
+.wap-section-artist .artwork-info::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
+.wap-section-artist .artwork-info.on {
+	display: block;
+}
+
+.wap-section-artist .artwork-info .back-btn {
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+.wap-section-artist .artwork-info .item {
+	margin-bottom: 40px;
+}
+
+.wap-section-artist .artwork-info .line {
+	margin: 0 auto 50px;
+	background-color: #ccc;
+}
+
+.wap-section-artist .artwork-info .artwork-img {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.wap-section-artist .artwork-info .artwork-text {
+	margin-top: 40px;
+	padding: 0 20px;
+	font-size: 10px;
+}
+
+.wap-section-artist .artwork-info .artwork-text .column-2 {
+	float: right;
+}
+
+.wap-section-artist .artwork-info .artwork-text li {
+	margin-bottom: 10px;
+	font-size: 10px;
+}
+
+.wap-section-artist .artwork-info .artwork-text .name,
+.wap-section-artist .artwork-info .artwork-text .price {
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+/* -----------------------------------------------------------------------
+
+艺术活动
+
+----------------------------------------------------------------------- */
+
+.wap-section-activities .back-btn {
+	margin: 70px 20px 20px;
+	font-size: 14px;
+}
+
+.wap-section-activities .year-scroll {
+	margin: 0 20px;
+	overflow: hidden;
+}
+
+.wap-section-activities .year-scroll ul {
+	width: 300%;
+	font-size: 0;
+	-webkit-transition: margin-left .3s;
+			transition: margin-left .3s;
+}
+
+.wap-section-activities .year-scroll li {
+	display: inline-block;
+	width: 80px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.wap-section-activities .activities-info {
+	height: 100%;
+	padding: 30px 40px 140px;
+	margin-top: 10px;
+	text-align: center;
+	overflow-y: auto;
+}
+
+.wap-section-activities .activities-info::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
+.wap-section-activities .activities-text {
+	margin-top: 10px;
+	font-size: 12px;
+}
+
+.wap-section-activities .activities-info .item {
+	margin-bottom: 30px;
+}
+
+.wap-section-activities .activities-detail {
+
+}
+
+/* -----------------------------------------------------------------------
+
+活动资讯
+
+----------------------------------------------------------------------- */
+
+.wap-section-information {
+	padding: 110px 20px 0; 
+}
+
+.wap-section-information .back-btn {
+	position: absolute;
+	top: 70px;
+	left: 20px;
+	font-size: 14px;
+}
+
+.wap-section-information .tags {
+	display: flex;
+	justify-content: space-between;
+	font-size: 12px;
+}
+
+.wap-section-information .tags li.active {
+	color: #008cd6;
+}
+
+.wap-section-information .infor-box {
+	width: 100%;
+	height: 100%;
+	padding: 0 20px  60px;
+	margin-top: 10px;
+	overflow-y: auto;
+}
+
+.wap-section-information .infor-box::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
+.wap-section-information .infor-box .item {
+	margin-top: 30px;
+}
+
+.wap-section-information .infor-box .item-text {
+	margin-top: 10px;
+	font-size: 12px;
+}
+
+.wap-section-information .infor-box .item-text .title {
+	font-size: 14px;
+}
+
+.wap-section-information .infor-box .item-text .date {
+	margin-top: 10px;
+}
+
+.wap-section-information .infor-detail {
+	position: absolute;
+	top: 95px;
+	left: 0;
+	z-index: 99;
+	display: none;
+	width: 100%;
+	height: 100%;
+	padding: 30px 20px 200px;
+	margin-top: 10px;
+	background-color: #fff;
+	overflow-y: auto;
+}
+
+.wap-section-information .infor-detail::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
+.wap-section-information .infor-detail.on {
+	display: block;
+}
+
+.wap-section-information .infor-detail .back-btn {
+	-webkit-transform: translateY(100%);
+			transform: translateY(100%);
+	font-size: 14px;
+}
+
+.wap-section-information .infor-detail .item {
+	display: none;
+	padding: 0 20px;
+}
+
+.wap-section-information .infor-detail .title {
+	font-size: 16px;
+	text-align: center;
+}
+
+.wap-section-information .infor-detail .date {
+	margin-top: 10px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.wap-section-information .infor-detail img {
+	margin: 20px 0;
+}
+
+.wap-section-information .infor-detail p {
+	font-size: 12px;
+	margin-top: 10px;
+	line-height: 2;
+}
+
+/* -----------------------------------------------------------------------
+
+画廊
+
+----------------------------------------------------------------------- */
+
+.wap-section-gallery .back-btn {
+	position: absolute;
+	top: 70px;
+	left: 20px;
+	font-size: 14px;
+}
+
+.wap-section-gallery .tags {
+	width: 100%;
+	height: 100%;
+	padding-top: 110px;
+	font-size: 16px;
+	color: #333;
+	background-color: #fff;
+	text-align: center;
+	overflow-y: auto;
+}
+
+.wap-section-gallery .tags::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
+.wap-section-gallery .tags li {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto 30px;
+}
+
+.wap-section-gallery .tags-1 {
+	background: url(../img/gallery-tag01.png) 0 0 no-repeat;
+	background-size: cover;
+}
+
+.wap-section-gallery .tags-2 {
+	background: url(../img/gallery-tag02.png) 0 0 no-repeat;
+	background-size: cover;
+}
+
+.wap-section-gallery .tags-3 {
+	background: url(../img/gallery-tag01.png) 0 0 no-repeat;
+	background-size: cover;
+}
+
+.wap-section-gallery .tags-4 {
+	background: url(../img/gallery-tag01.png) 0 0 no-repeat;
+	background-size: cover;
+}
+
+.wap-section-gallery .tags-5 {
+	background: url(../img/gallery-tag01.png) 0 0 no-repeat;
+	background-size: cover;
+}
+
+.wap-section-gallery .tags-6 {
+	background: url(../img/gallery-tag01.png) 0 0 no-repeat;
+	background-size: cover;
+}
+
+.wap-section-gallery .tags-7 {
+	background: url(../img/gallery-tag02.png) 0 0 no-repeat;
+	background-size: cover;
+}
+
+.wap-section-gallery .tags-8 {
+	background: url(../img/gallery-tag01.png) 0 0 no-repeat;
+	background-size: cover;
+}
+
+.wap-section-gallery .tags-9 {
+	background: url(../img/gallery-tag01.png) 0 0 no-repeat;
+	background-size: cover;
+}
+
+.wap-section-gallery .tags-10 {
+	background: url(../img/gallery-tag01.png) 0 0 no-repeat;
+	background-size: cover;
+}
+
+.wap-section-gallery .item {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	width: 100%;
+	height: 100%;
+	padding: 76px 40px 20px;
+	background-color: #fff;
+	display: none;
+	overflow-y: auto;
+}
+
+.wap-section-gallery .item::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
+.wap-section-gallery .item .back {
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.wap-section-gallery .item .back-1 {
+	display: block;
+}
+
+.wap-section-gallery .item .back-2 {
+	display: none;
+}
+
+.wap-section-gallery .item .img-box {
+	margin-bottom: 20px;
+}
+
+.wap-section-gallery .item h1 {
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+
+.wap-section-gallery .item h2 {
+	margin-bottom: 20px;
+	font-size: 12px;
+}
+
+.wap-section-gallery .item p {
+	margin-bottom: 20px;
+	font-size: 12px;
+	line-height: 2;
+}
+
+.wap-section-gallery .item .line {
+	margin: 30px 0; 
+}
+
+.wap-section-gallery .item .unvis {
+	display: none;
+}
+
+/* -----------------------------------------------------------------------
+
+关于我们
+
+----------------------------------------------------------------------- */
+
+.wap-section-about .back-btn {
+	position: absolute;
+	top: 70px;
+	left: 20px;
+	font-size: 14px;
+	color: #fff;
+}
+
+.wap-section-about .tags {
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+	color: #fff;
+	background-color: #333;
+	text-align: center;
+}
+
+.wap-section-about .tags li {
+	margin: 15% 0;
+}
+
+.wap-section-about .item {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	width: 100%;
+	height: 100%;
+	padding: 76px 40px 0;
+	background-color: #fff;
+	display: none;
+	overflow-y: auto;
+}
+
+.wap-section-about .item::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
+.wap-section-about .item .back {
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.wap-section-about .item .img-box {
+	margin-bottom: 30px;
+}
+
+.wap-section-about .item p {
+	font-size: 12px;
+	line-height: 2;
+	margin-bottom: 20px;
+}
+
+/* -----------------------------------------------------------------------
+
+我的
+
+----------------------------------------------------------------------- */
+
+.wap-section-user .back-btn {
+	position: absolute;
+	top: 70px;
+	left: 20px;
+	font-size: 14px;
+	color: #fff;
+}
+
+.wap-section-user .tags {
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+	color: #fff;
+	background-color: #333;
+	text-align: center;
+}
+
+.wap-section-user .tags .name {
+	width: 50%;
+	padding: 20px 0;
+	margin: 40px auto;
+	font-size: 20px;
+	font-weight: 600;
+	border-top: 1px solid #555;
+	border-bottom: 1px solid #555;
+}
+
+.wap-section-user .tags li {
+	margin: 10% 0;
+}
+
+.wap-section-user .item {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	width: 100%;
+	height: 100%;
+	padding: 76px 40px 0;
+	background-color: #fff;
+	display: none;
+	overflow-y: auto;
+}
+
+.wap-section-user .item::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
+.wap-section-user .item .back {
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.wap-section-user .item ul {
+	display: -webkit-flex;
+	justify-content: space-between;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	display: flex;
+	-webkit-justify-content: space-between;
+	-webkit-align-content: flex-start;
+	-webkit-flex-wrap: wrap;
+	width: 100%;
+	font-size: 0;
+}
+
+.wap-section-user .item li {
+	width: 45%;
+	margin-bottom: 20px;
+	font-size: 10px;
+}
+
+.wap-section-user .item p {
+	margin-top: 5px;
+}
+
+.wap-section-user .item p.name {
+	margin-top: 10px;
+}
+
+.wap-section-user .item-3 ul,
+.wap-section-user .item-4 ul {
+	display: block;
+}
+
+.wap-section-user .item-3 li,
+.wap-section-user .item-4 li {
+	width: 90%;
+	margin: 0 auto 20px;
+	text-align: center;
+}
+
+.wap-section-user .item-6 {
+	padding-bottom: 30px;
+}
+
+.wap-section-user .item-6 h2 {
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+
+.wap-section-user .item-6 form {
+	margin-bottom: 12px;
+}
+
+.wap-section-user .item-6 .input-box {
+	height: 38px;
+	padding: 0 10px;
+	margin-top: 20px;
+	line-height: 38px;
+	border-bottom: 2px solid #eee;
+}
+
+.wap-section-user .item-6 input {
+	width: 100%;
+	font-size: 12px;
+	border: none;
+}
+
+.wap-section-user .item-6 input[type=button] {
+	margin-top: 30px;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	font-size: 14px;
+	color: #fff;
+	background-color: #000;
+}
+
+.wap-section-user .item-6 .setnewpw {
+	margin-bottom: 30px;
+	text-align: right;
+	font-size: 10px;
+	color: #666;
+}
+
+.wap-section-user .item-6 address {
+	padding: 5px 10px; 
+	margin-top: 20px;
+	font-size: 12px;
+	vertical-align: top;
+	background-color: #e3e4e6;
+}
+
+.wap-section-user .item-6 address p {
+	height: 100%;
+	float: left;
+	font-size: 12px;
+}
